@@ -1,3 +1,0 @@
-# sapporo
-
-Sapporo Project
