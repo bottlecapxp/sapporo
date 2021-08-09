@@ -1,6 +1,8 @@
 import React from 'react'
 import './Pages.css'
-import Win from '../images/win.svg'
+import Win from '../components/win.js'
+import Age from '../components/age.js'
+import Footer from '../components/footer.js'
 
 /**
 * @author Decory Herbert
@@ -10,12 +12,9 @@ import Win from '../images/win.svg'
 const Home = (props) => {
   return(
     <div className='home_container'> 
-      <img src={Win} width="200" alt="win a home music studio"/>
-      <p>ARE YOU OVER 19 YEARS OF AGE?</p>
-      <div className="buttons">
-        <button>YES, LET ME IN</button>
-        <button>NO, TAKE ME HOME</button>
-      </div>
+      <Win />
+      <Age />
+      <Footer />
     </div>
    )
 
