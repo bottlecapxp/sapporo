@@ -85,3 +85,42 @@ button:hover {
     font-size: 1.25rem;
     font-weight: bold;
 }
+
+.levels_container {
+    background-color: #000000;
+    width: 40%;
+    padding: 0.75rem;
+    display: flex;
+    flex-direction: column;
+}
+
+button#next {
+    background-color: transparent;
+    color: #F6BA10;
+    font-size: 1rem;
+    border: none;
+    width: 50px;
+    align-self: flex-end;
+}
+
+button#prizes {
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 1rem;
+    border: none;
+}
+
+button#terms {
+    background-color: transparent;
+    color: #F6BA10;
+    font-size: 1rem;
+    border: none;
+}
+
+.levels_container button:hover {
+    cursor: pointer;
+}
+
+.levels_container span {
+    color: #F6BA10;
+}

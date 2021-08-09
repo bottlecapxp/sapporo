@@ -35,3 +35,19 @@ button:hover {
     flex-direction: column;
     justify-content: space-between;
 }
+
+.collect_container {
+    min-height: 100vh;
+    background: url(../images/sapporo-can.png);
+    background-color: #333333;
+    background-blend-mode: multiply;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
