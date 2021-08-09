@@ -1,5 +1,37 @@
+.prizing_container button,
+.rules_container button,
+.terms_container button {
+    background-color: #E4CD73;
+    color: #FFFFFF;
+    border: 2px solid #231F20;
+    font-weight: bold;
+    font-size: 1.125rem;
+    width: 100px;
+    height: 30px;
+    align-self: center;
+    margin-bottom: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
 .home_container {
     min-height: 100vh;
     margin: 0;
     box-sizing: border-box;
+}
+
+.prizing_container,
+.rules_container,
+.terms_container {
+    min-height: 100vh;
+    margin: 0;
+    background: url(../images/prizing-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

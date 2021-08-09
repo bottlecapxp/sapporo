@@ -1,0 +1,87 @@
+.win_container {
+    background-color: #231F20;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.age_container {
+    background-image: url(../images/age-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.age_container p {
+    padding: 0.75rem;
+    margin-top: 2rem;
+    background-color: #231F20;
+    color: #FE9829;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.age_container button,
+.footer_container button {
+    background-color: #FD9829;
+    color: #FFFFFF;
+    width: 200px;
+    padding: 5px 0;
+    border: 1px solid #231F20;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.age_container span {
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.footer_container {
+    background-color: #231F20;
+    text-align: center;
+    height: 10vh;
+    padding-bottom: 5px;
+}
+
+.footer_container p,
+.footer_container button {
+    margin: 0;
+    font-weight: bold;
+}
+
+.footer_container p {
+    color: #FE9829;
+    padding-top: 15px;
+}
+
+.footer_container button {
+    margin-top: 5px;
+}
+
+.header_container {
+    background-color: #231F20;
+    color: #FE9829;
+    padding: 0.75rem;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.header_container h1 {
+    margin: 0;
+}
+
+.bullet_container p {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+}

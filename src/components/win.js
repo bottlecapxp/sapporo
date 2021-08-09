@@ -1,5 +1,5 @@
 import React from 'react'
-import './win.css'
+import './components.css'
 import WinSVG from '../images/win.svg'
 
 const Win = (props) => {

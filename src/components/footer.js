@@ -1,11 +1,14 @@
 import React from 'react'
-import './footer.css'
+import { useHistory } from "react-router-dom"
+import './components.css'
 
 const Footer = (props) => {
+  let history = useHistory();
+
   return(
     <div className='footer_container'> 
       <p>Please Enjoy Responsibly</p>
-      <button>terms and conditions</button>
+      <button onClick={() => {history.push('/terms')}}>terms and conditions</button>
     </div>
    )
 
