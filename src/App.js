@@ -6,6 +6,7 @@ import Rules from './Pages/rules'
 import Terms from './Pages/terms'
 import Collect from './Pages/collect'
 import Ready from './Pages/ready'
+import Draw from './Pages/draw'
 
 function App() {
 return (
@@ -17,6 +18,7 @@ return (
     <Route path='/terms' exact strict component={Terms} />
     <Route path='/collect' exact strict component={Collect} />
     <Route path='/ready' exact strict component={Ready} />
+    <Route path='/draw' exact strict component={Draw} />
   </Switch>
 </Router>
 

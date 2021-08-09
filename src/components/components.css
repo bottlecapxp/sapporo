@@ -124,3 +124,30 @@ button#terms {
 .levels_container span {
     color: #F6BA10;
 }
+
+.ready-buttons_container {
+    background-color: #000000;
+    width: 275px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button#practice,
+button#play {
+    width: 80%;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+}
+
+button#practice {
+    background-color: #59BED8;
+    padding: 5px 0;
+}
+
+button#play {
+    background-color: #DCAE34;
+    padding: 5px 0;
+}
