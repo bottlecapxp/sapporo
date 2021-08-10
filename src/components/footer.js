@@ -8,7 +8,7 @@ const Footer = (props) => {
   return(
     <div className='footer_container'> 
       <p>Please Enjoy Responsibly</p>
-      <button onClick={() => {history.push('/terms')}}>terms and conditions</button>
+      <button id='footer_btn' onClick={() => {history.push('/terms')}}>terms and conditions</button>
     </div>
    )
 

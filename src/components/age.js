@@ -8,8 +8,8 @@ const Age = (props) => {
   return(
     <div className='age_container'> 
         <p>are you over 19 years of age?</p>
-        <button onClick={() => {history.push('/prizing')}}><span>yes</span> let me in</button>
-        <button onClick={() => {history.push('')}}><span>no</span> take me home</button>
+        <button className="ageBtn" onClick={() => {history.push('/prizing')}}><span>yes</span> let me in</button>
+        <button className="ageBtn" onClick={() => {history.push('')}}><span>no</span> take me home</button>
     </div>
    )
 

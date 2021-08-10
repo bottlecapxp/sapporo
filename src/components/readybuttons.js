@@ -7,7 +7,7 @@ const ReadyButtons = (props) => {
 
   return (
     <div className="ready-buttons_container">
-      <button id="practice" onClick={() => {history.push("/draw")}}>PRACTICE ROUND</button>
+      <button id="practice" onClick={() => {history.push("/prize")}}>PRACTICE ROUND</button>
       <button id="play" onClick={() => {history.push("")}}>PLAY THE GAME</button>
     </div>
   );

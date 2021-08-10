@@ -7,6 +7,9 @@ import Terms from './Pages/terms'
 import Collect from './Pages/collect'
 import Ready from './Pages/ready'
 import Draw from './Pages/draw'
+import Prize from './Pages/prize'
+import ThanksForPlaying from './Pages/thanksforplaying'
+import ThanksForEntry from './Pages/thanksforentry'
 
 function App() {
 return (
@@ -19,6 +22,9 @@ return (
     <Route path='/collect' exact strict component={Collect} />
     <Route path='/ready' exact strict component={Ready} />
     <Route path='/draw' exact strict component={Draw} />
+    <Route path='/prize' exact strict component={Prize} />
+    <Route path='/thanksforplaying' exact strict component={ThanksForPlaying} />
+    <Route path='/thanksforentry' exact strict component={ThanksForEntry} />
   </Switch>
 </Router>
 
