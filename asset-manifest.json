@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/sapporo/static/css/main.abee9258.chunk.css",
+    "main.js": "/sapporo/static/js/main.75495031.chunk.js",
+    "main.js.map": "/sapporo/static/js/main.75495031.chunk.js.map",
+    "runtime-main.js": "/sapporo/static/js/runtime-main.40c44e65.js",
+    "runtime-main.js.map": "/sapporo/static/js/runtime-main.40c44e65.js.map",
+    "static/css/2.ed1298f3.chunk.css": "/sapporo/static/css/2.ed1298f3.chunk.css",
+    "static/js/2.9f748880.chunk.js": "/sapporo/static/js/2.9f748880.chunk.js",
+    "static/js/2.9f748880.chunk.js.map": "/sapporo/static/js/2.9f748880.chunk.js.map",
+    "static/js/3.17e862f2.chunk.js": "/sapporo/static/js/3.17e862f2.chunk.js",
+    "static/js/3.17e862f2.chunk.js.map": "/sapporo/static/js/3.17e862f2.chunk.js.map",
+    "index.html": "/sapporo/index.html",
+    "static/css/2.ed1298f3.chunk.css.map": "/sapporo/static/css/2.ed1298f3.chunk.css.map",
+    "static/css/main.abee9258.chunk.css.map": "/sapporo/static/css/main.abee9258.chunk.css.map",
+    "static/js/2.9f748880.chunk.js.LICENSE.txt": "/sapporo/static/js/2.9f748880.chunk.js.LICENSE.txt",
+    "static/media/components.css": "/sapporo/static/media/age-background.b783b00f.jpg",
+    "static/media/cRules.72fdcfaf.png": "/sapporo/static/media/cRules.72fdcfaf.png",
+    "static/media/footer-screenshot.030b9b11.png": "/sapporo/static/media/footer-screenshot.030b9b11.png",
+    "static/media/pixel-player.d44edf44.png": "/sapporo/static/media/pixel-player.d44edf44.png",
+    "static/media/prizes.a9dd79ae.png": "/sapporo/static/media/prizes.a9dd79ae.png",
+    "static/media/Pages.css": "/sapporo/static/media/sapporo-can.4c2c65f9.png",
+    "static/media/sapporo-ar-experience.997f1253.png": "/sapporo/static/media/sapporo-ar-experience.997f1253.png",
+    "static/media/sapporo-logo-thanks.3686d574.png": "/sapporo/static/media/sapporo-logo-thanks.3686d574.png",
+    "static/media/sapporo-logo.d099008e.png": "/sapporo/static/media/sapporo-logo.d099008e.png",
+    "static/media/terms.6eaae4e0.png": "/sapporo/static/media/terms.6eaae4e0.png",
+    "static/media/win.9960fa23.svg": "/sapporo/static/media/win.9960fa23.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40c44e65.js",
+    "static/css/2.ed1298f3.chunk.css",
+    "static/js/2.9f748880.chunk.js",
+    "static/css/main.abee9258.chunk.css",
+    "static/js/main.75495031.chunk.js"
+  ]
+}
