@@ -22,6 +22,11 @@ button:hover {
     box-sizing: border-box;
 }
 
+.terms_container {
+    text-align: center;
+    padding: 0.5rem;
+}
+
 .prizing_container,
 .rules_container,
 .terms_container {
