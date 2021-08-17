@@ -43,7 +43,7 @@ button:hover {
 
 .home_container img,
 .prizing-header_container img {
-    width: 125px;
+    width: 125px !important;
 }
 
 .win_container {
@@ -97,7 +97,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
 }
 
@@ -110,6 +110,50 @@ button:hover {
     line-height: 0;
 }
 
+.prizing1_container img {
+    width: 12.5%;
+    height: auto;
+}
+
+.tier-3_container,
+.tier-2_container,
+.tier-1_container {
+    width: 80%;
+    max-width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0;
+    /* border: 1px solid red; */
+}
+
+.tier-2_container {
+    justify-content: space-around;
+}
+
+.tier-1_container {
+    justify-content: space-evenly;
+}
+
+.tier-3-title_container img,
+.tier-2-title_container img,
+.tier-1-title_container img {
+    width: 80%;
+    max-width: 500px;
+}
+
+#next-btn {
+    background-color: #F7BB16;
+    color: #FFFFFF;
+    border: none;
+    font-family: "Druk Medium";
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    width: 50%;
+    height: 35px;
+    margin: 1.5rem 0;
+}
+
 @media screen and (min-width: 780px) {
     .home_container {
         background-image: url(../images/web-background.svg);
@@ -117,7 +161,7 @@ button:hover {
     }
     .home_container img,
     .prizing-header_container img {
-        width: 150px;
+        width: 150px !important;
     }
     .win_container,
     .prizing-header_container {
