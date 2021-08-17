@@ -1,6 +1,5 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-import PrizingImg from "../images/prizes.png";
 import CRules from "../images/cRules.png";
 import Terms from "../images/terms.png";
 import "./Pages.css";
@@ -21,9 +20,9 @@ const Prizing = (props) => {
         autoFocus={true}
         showArrows={false}
       >
-        <div>
-          <img src={PrizingImg} alt="prizing"></img>
-        </div>
+        {/* <div>
+          <img src={} alt="prizing"></img>
+        </div> */}
         <div>
           <img src={CRules} alt="rules"></img>
         </div>

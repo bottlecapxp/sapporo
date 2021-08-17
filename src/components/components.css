@@ -1,12 +1,15 @@
+@font-face {
+  font-family: 'Druk Bold';
+  src: url(../fonts/Druk\ Bold\ Regular.ttf);
+}
+@font-face {
+  font-family: 'Druk Medium';
+  src: url(../fonts/Druk-Medium-Web.ttf);
+}
+
 .ageBtn {
   height: 17% !important;
   width: 80% !important;
-}
-
-.win_container {
-  background-color: #231f20;
-  text-align: center;
-  padding: 1rem 0;
 }
 
 .header_info {
@@ -26,39 +29,6 @@
 
 .header_container h1 {
     margin: 0;
-}
-
-.age_container {
-  background-image: url(../images/age-background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 50vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.age_container p {
-  padding: 0.75rem;
-  margin-top: 2rem;
-  background-color: #231f20;
-  color: #fe9829;
-  text-transform: uppercase;
-  width: 100%;
-  text-align: center;
-  font-weight: bold;
-}
-
-.age_container button,
-.footer_container button {
-  background-color: #fd9829;
-  color: #ffffff;
-  width: 200px;
-  padding: 5px 0;
-  border: 1px solid #231f20;
-  text-transform: uppercase;
-  margin-top: 2rem;
 }
 
 button:hover {

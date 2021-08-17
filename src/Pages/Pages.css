@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Druk Bold';
+    src: url(../fonts/Druk\ Bold\ Regular.ttf);
+}
+@font-face {
+    font-family: 'Druk Medium';
+    src: url(../fonts/Druk-Medium-Web.ttf);
+}
+
 .prizing_container button,
 .rules_container button,
 .terms_container button {
@@ -19,7 +28,79 @@ button:hover {
 .home_container {
     min-height: 100vh;
     margin: 0;
+    padding: 1rem;
     box-sizing: border-box;
+    background-image: url(../images/mobile-background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.win_container {
+    color: #FFFFFF;
+    font-family: 'Druk Bold';
+    font-size: 1.5rem;
+}
+
+.win_container h1 {
+    margin: 0.5rem;
+    line-height: 1;
+}
+
+.win {
+    color: #F7BB16;
+}
+
+.of-age_container {
+    color: #FFFFFF;
+    font-family: 'Druk Medium';
+    font-size: 2.125rem;
+    letter-spacing: 1px;
+}
+
+.button_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+    max-width: 250px;
+}
+
+.button_container button {
+    color: #292929;
+    background-color: #FFFFFF;
+    border: none;
+    margin: 5%;
+    width: 100%;
+    height: 35px;
+    font-family: 'Druk Medium';
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+}
+
+@media screen and (min-width: 780px) {
+    .home_container {
+        background-image: url(../images/web-background.svg);
+        background-position: 15% 50%;
+    }
+    .win_container {
+        font-size: 1.75rem;
+    }
+    .of-age_container {
+        font-size: 2.35rem;
+    }
+    .button_container {
+        width: 30%;
+    }
+    .button_container button {
+        height: 40px;
+        font-size: 1.5rem;
+    }
 }
 
 .terms_container {
@@ -32,7 +113,6 @@ button:hover {
 .terms_container {
     min-height: 100vh;
     margin: 0;
-    background: url(../images/prizing-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
