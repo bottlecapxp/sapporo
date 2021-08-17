@@ -41,6 +41,11 @@ button:hover {
     text-align: center;
 }
 
+.home_container img,
+.prizing-header_container img {
+    width: 125px;
+}
+
 .win_container {
     color: #FFFFFF;
     font-family: 'Druk Bold';
@@ -83,12 +88,39 @@ button:hover {
     letter-spacing: 2px;
 }
 
+.prizing1_container {
+    min-height: 100vh;
+    margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: #292929;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.prizing-header_container {
+    color: #F7BB16;
+    font-family: 'Druk Bold';
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    margin: 0.5rem;
+    line-height: 0;
+}
+
 @media screen and (min-width: 780px) {
     .home_container {
         background-image: url(../images/web-background.svg);
         background-position: 15% 50%;
     }
-    .win_container {
+    .home_container img,
+    .prizing-header_container img {
+        width: 150px;
+    }
+    .win_container,
+    .prizing-header_container {
         font-size: 1.75rem;
     }
     .of-age_container {
@@ -108,7 +140,7 @@ button:hover {
     padding: 0.5rem;
 }
 
-.prizing_container,
+.prizing2_container,
 .rules_container,
 .terms_container {
     min-height: 100vh;

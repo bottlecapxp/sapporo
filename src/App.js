@@ -1,7 +1,8 @@
 import{BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import './App.css'
 import Home from './Pages/home'
-import Prizing from './Pages/prizing'
+import Prizing1 from './Pages/prizing-1'
+import Prizing2 from './Pages/prizing-2'
 import Rules from './Pages/rules'
 import Terms from './Pages/terms'
 import Collect from './Pages/collect'
@@ -16,7 +17,8 @@ return (
 <Router>
   <Switch>
     <Route path='/' exact strict component={Home} />
-    <Route path='/prizing' exact strict component={Prizing} />
+    <Route path='/prizing-1' exact strict component={Prizing1} />
+    <Route path='/prizing-2' exact strict component={Prizing2} />
     <Route path='/rules' exact strict component={Rules} />
     <Route path='/terms' exact strict component={Terms} />
     <Route path='/collect' exact strict component={Collect} />

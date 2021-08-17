@@ -13,7 +13,7 @@ const Home = (props) => {
 
   return (
       <div className="home_container">
-        <img src={Logo} width="125" alt="Sapporo Logo" />
+        <img src={Logo} alt="Sapporo Logo" />
         <div className="win_container">
           <h1><span className="win">WIN</span> A HOME <br /> STUDIO</h1>
         </div>
@@ -21,7 +21,7 @@ const Home = (props) => {
           <p>ARE YOU OVER <br /> 19 YEARS OF AGE?</p>
         </div>
         <div className="button_container">
-          <button onClick={() => {history.push('/prizing')}}>YES, LET ME IN</button>
+          <button onClick={() => {history.push('/prizing-1')}}>YES, LET ME IN</button>
           <button onClick={() => {history.push('https://milk.com/')}}>NO, TAKE ME HOME</button>
         </div>
       </div>
